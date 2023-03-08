@@ -9,7 +9,4 @@ public class S28201 {
         new MyFrame();
     }
 
-    // TODO: Preserve colors
-    // TODO: PROJECT: we color pixels (color rectangle and only prime rectangles)
-
 }
