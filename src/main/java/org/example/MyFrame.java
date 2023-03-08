@@ -6,8 +6,6 @@ import lombok.SneakyThrows;
 import java.awt.*;
 import java.io.*;
 
-// TODO: check is serialization is working and add deserialization
-//TODO: check if the code fits and if there is no abundance
 public class MyFrame extends Frame {
 
     private final static int COUNT_CIRCLES = 10;
@@ -81,8 +79,6 @@ public class MyFrame extends Frame {
         return sample;
     }
 
-    // TODO: optimize serialization def and json, ++ deserialization
-    // TODO: check if json mapping works
     @SneakyThrows
     private Color deserializeDef(String sample) {
         Color color;
